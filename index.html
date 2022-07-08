@@ -17,6 +17,8 @@
 
 <nav class="navbar navbar-dark bg-dark">
   <a class="navbar-brand" href="index.html">Today</a>
+  
+
   <form class="form-inline">
     <button class="btn btn-outline-success" type="button">Search</button>
   </form>
@@ -27,12 +29,74 @@
 
 
 <body>
-  <p>hello world</p>
+  <link rel="stylesheet" href="style.css"/>
 
-  <form>
-    <div class="form-group">
-      <label for="exampleFormControlTextarea1">Begin entry here...</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+  <div id="bodyContent">
+
+
+    <form class="form-inline" id="alignRight">
+      <button class="btn btn-outline-success" type="button">New tag</button>
+    </form>
+
+    <form>
+      <div class="form-group w-75">
+        <label for="exampleFormControlTextarea1">Label here</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Begin entry here..."></textarea>
+      </div>
+    </form>
+    
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked> Eva
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off"> Lucy W
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Darius
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Martin
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Dasha and Arcata
+      </label>
     </div>
-  </form>
+
+    <p></p> <!--new line lol-->
+
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked> Concert
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off"> Hang out
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Party
+      </label>
+    </div>
+
+    <p></p> <!--new line lol-->
+
+
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked> Home
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off"> Oakland Tech
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Friend house
+      </label>
+      <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Claremont
+      </label>
+    </div>
+
+
+  </div>
 </body>
